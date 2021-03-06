@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A067E72480F8C751CEF59747 /* Pods_AAPIManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8059A3BE583919FF050E6345 /* Pods_AAPIManager.framework */; };
 		B25DF47B25F371CB006848F9 /* AAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B25DF47925F371CB006848F9 /* AAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25DF48225F372E3006848F9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48125F372E3006848F9 /* Request.swift */; };
+		B25DF48425F3747F006848F9 /* NetworkConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48325F3747F006848F9 /* NetworkConnectivity.swift */; };
+		B25DF48625F3763B006848F9 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48525F3763B006848F9 /* BaseRequest.swift */; };
+		B25DF48825F379FE006848F9 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48725F379FE006848F9 /* TargetType.swift */; };
+		B25DF48A25F37EBA006848F9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48925F37EBA006848F9 /* APIManager.swift */; };
+		B25DF48F25F3839D006848F9 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48D25F3839D006848F9 /* ErrorTracker.swift */; };
+		B25DF49025F3839D006848F9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DF48E25F3839D006848F9 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10C6030824BAD6C9D996FD61 /* Pods-AAPIManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAPIManager.release.xcconfig"; path = "Target Support Files/Pods-AAPIManager/Pods-AAPIManager.release.xcconfig"; sourceTree = "<group>"; };
+		1FABAD60E715CF99A883144E /* Pods-AAPIManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAPIManager.debug.xcconfig"; path = "Target Support Files/Pods-AAPIManager/Pods-AAPIManager.debug.xcconfig"; sourceTree = "<group>"; };
+		8059A3BE583919FF050E6345 /* Pods_AAPIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AAPIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25DF47625F371CB006848F9 /* AAPIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AAPIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25DF47925F371CB006848F9 /* AAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPIManager.h; sourceTree = "<group>"; };
 		B25DF47A25F371CB006848F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25DF48125F372E3006848F9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B25DF48325F3747F006848F9 /* NetworkConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectivity.swift; sourceTree = "<group>"; };
+		B25DF48525F3763B006848F9 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		B25DF48725F379FE006848F9 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		B25DF48925F37EBA006848F9 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B25DF48D25F3839D006848F9 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		B25DF48E25F3839D006848F9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A067E72480F8C751CEF59747 /* Pods_AAPIManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CF5B01B3E0CC181B9A2654E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8059A3BE583919FF050E6345 /* Pods_AAPIManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3BAD857721070369C186467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FABAD60E715CF99A883144E /* Pods-AAPIManager.debug.xcconfig */,
+				10C6030824BAD6C9D996FD61 /* Pods-AAPIManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B25DF46C25F371CB006848F9 = {
 			isa = PBXGroup;
 			children = (
 				B25DF47825F371CB006848F9 /* AAPIManager */,
 				B25DF47725F371CB006848F9 /* Products */,
+				A3BAD857721070369C186467 /* Pods */,
+				9CF5B01B3E0CC181B9A2654E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +84,33 @@
 		B25DF47825F371CB006848F9 /* AAPIManager */ = {
 			isa = PBXGroup;
 			children = (
+				B25DF48C25F3839D006848F9 /* Trackers */,
+				B25DF48B25F3835D006848F9 /* Managers */,
 				B25DF47925F371CB006848F9 /* AAPIManager.h */,
 				B25DF47A25F371CB006848F9 /* Info.plist */,
 			);
 			path = AAPIManager;
+			sourceTree = "<group>";
+		};
+		B25DF48B25F3835D006848F9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B25DF48125F372E3006848F9 /* Request.swift */,
+				B25DF48325F3747F006848F9 /* NetworkConnectivity.swift */,
+				B25DF48525F3763B006848F9 /* BaseRequest.swift */,
+				B25DF48725F379FE006848F9 /* TargetType.swift */,
+				B25DF48925F37EBA006848F9 /* APIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B25DF48C25F3839D006848F9 /* Trackers */ = {
+			isa = PBXGroup;
+			children = (
+				B25DF48D25F3839D006848F9 /* ErrorTracker.swift */,
+				B25DF48E25F3839D006848F9 /* ActivityIndicator.swift */,
+			);
+			path = Trackers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B25DF47E25F371CB006848F9 /* Build configuration list for PBXNativeTarget "AAPIManager" */;
 			buildPhases = (
+				C05FB58FDC26E687868FC935 /* [CP] Check Pods Manifest.lock */,
 				B25DF47125F371CB006848F9 /* Headers */,
 				B25DF47225F371CB006848F9 /* Sources */,
 				B25DF47325F371CB006848F9 /* Frameworks */,
@@ -95,6 +157,7 @@
 				TargetAttributes = {
 					B25DF47525F371CB006848F9 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -126,11 +189,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C05FB58FDC26E687868FC935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AAPIManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B25DF47225F371CB006848F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25DF48825F379FE006848F9 /* TargetType.swift in Sources */,
+				B25DF48F25F3839D006848F9 /* ErrorTracker.swift in Sources */,
+				B25DF48225F372E3006848F9 /* Request.swift in Sources */,
+				B25DF48A25F37EBA006848F9 /* APIManager.swift in Sources */,
+				B25DF49025F3839D006848F9 /* ActivityIndicator.swift in Sources */,
+				B25DF48425F3747F006848F9 /* NetworkConnectivity.swift in Sources */,
+				B25DF48625F3763B006848F9 /* BaseRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +354,9 @@
 		};
 		B25DF47F25F371CB006848F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FABAD60E715CF99A883144E /* Pods-AAPIManager.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.AAPIManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -282,7 +380,9 @@
 		};
 		B25DF48025F371CB006848F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C6030824BAD6C9D996FD61 /* Pods-AAPIManager.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
